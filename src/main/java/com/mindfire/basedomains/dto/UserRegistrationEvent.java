@@ -10,4 +10,6 @@ import lombok.NoArgsConstructor;
 public class UserRegistrationEvent {
     private String email;
     private String verificationLink;
+	private String firstName;
+
 }
